@@ -1,4 +1,4 @@
-async function main() {
+ async function main() {
 
     let response = await fetch('http://localhost:3001/listBooks')
     let books = await response.json()
@@ -25,4 +25,4 @@ function renderBook(book) {
     `
 }
 
-main()
+main()   
